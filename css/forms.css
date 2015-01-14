@@ -1,0 +1,10 @@
+input {
+  border: 5px solid red;
+}
+
+.long-div {
+  border: 5px solid red;
+  margin-bottom: 5em;
+  max-width: 400px;
+  word-break: break-word;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formz!!!!!</title>
+    <link rel="stylesheet" href="css/forms.css">
+  </head>
+  <body>
+
+    <div class="long-div">
+
+      http://localhost:8000/forms.html?userName= Chris&userEmail=&gender=Male&favFoods=choc&favFoods=nilla
+
+    </div>
+
+    <form method="get" action="forms.html">
+
+      <div>
+        <label>Enter a user name</label>
+        <input type="text" placeholder="User name" name="userName" value="Chris">
+
+      </div>
+
+      <div>
+        <label>Enter your email</label>
+        <input type="email" name="userEmail">
+      </div>
+
+      <div>
+
+        <label>
+          Check if female:
+          <input type="radio" name="gender" value="Female">
+        </label>
+
+        <label for="gender_male">Or if male:</label>
+        <input id="gender_male" type="radio" name="gender" value="Male">
+
+      </div>
+
+      <div>
+
+        <h2>Favorite foods</h2>
+        <label>
+          Chocolate
+          <input type="checkbox" name="favFoods" value="choc">
+        </label>
+        <label>
+          Strawbereh
+          <input type="checkbox" name="favFoods" value="strawberreh">
+        </label>
+        <label>
+          Nilla
+          <input type="checkbox" name="favFoods" value="nilla">
+        </label>
+
+
+      </div>
+
+      <div>
+
+        <textarea name="shortBio" placeholder="Short bio"></textarea>
+
+      </div>
+
+      <div>
+        <label>
+          Do you like CSS?
+          <input type="checkbox" name="likesCSS" value="yes">
+        </label>
+
+      </div>
+      <button type="submit">Save</button>
+
+
+    </form>
+  </body>
+</html>

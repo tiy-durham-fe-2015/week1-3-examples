@@ -42,8 +42,8 @@ a {
   our my-icons font
 */
 .page-header:before {
-  font-size: 2em;
   content: 'c';
+  font-size: 2em;
   font-family: "my-icons";
   display: inline-block;
   vertical-align: middle;

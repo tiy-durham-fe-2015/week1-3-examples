@@ -33,6 +33,7 @@ body {
   can now apply responsive design to the table
   and make it look quite different on mobile!
 */
+
 @media (max-width: 736px) {
   .data-table__headers,
   .data-table__header {
@@ -43,5 +44,20 @@ body {
   .data-table__col,
   .data-table__row {
     display: block;
+    background: white;
+  }
+}
+
+@media (max-width: 500px) {
+  .data-table__headers,
+  .data-table__header {
+    display: none;
+  }
+
+  .data-table,
+  .data-table__col,
+  .data-table__row {
+    display: block;
+    background: red;
   }
 }

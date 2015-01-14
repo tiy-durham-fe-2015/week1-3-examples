@@ -1,0 +1,101 @@
+/* Cheap reset of browser defaults */
+* {
+  border: 0;
+  margin: 0;
+}
+
+/* Give the body (and its children) some
+defaults */
+body {
+  font-family: sans-serif;
+  line-height: 1.4em;
+  color: #444;
+  background: white;
+  padding-bottom: 50em;
+}
+
+/* Grid-like demo */
+/*
+.inline-block-demo {
+  text-align: justify;
+}
+
+.inline-block-demo:after {
+  content: ' ';
+  display: inline-block;
+  width: 100%;
+}
+
+*/
+
+/* The inline demo */
+.inline-blocky {
+  display: inline-block;
+  padding: 3em;
+  background: blue;
+  margin: 0.5em;
+}
+
+/* Block demo */
+.boxy {
+  background: red;
+  padding: 3em;
+  margin: 0.5em 0.5em 1em 0.5em;
+}
+
+/* Margin, Padding, Sizing */
+.content-demo1,
+.content-demo2 {
+  margin-bottom: 2em;
+  background: #444;
+  color: #FFF;
+  max-width: 800px;
+  min-width: 400px;
+  margin: 2em auto;
+}
+
+.content-demo2 {
+  padding: 1em;
+  border: solid 30px red;
+}
+
+.float-demo-container {
+  padding: 5em;
+  background: pink;
+  position: relative;
+}
+
+.float-demo {
+  position: relative;
+  padding: 1em;
+  background: #444;
+  color: white;
+}
+
+.the-float {
+  box-sizing: border-box;
+  background: green;
+  padding: 3em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foo {
+
+}
