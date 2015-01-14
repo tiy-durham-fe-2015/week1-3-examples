@@ -1,11 +1,20 @@
-/*
-  TODO: put your CSS here...
-*/
+@font-face {
+  font-family: "my-icons";
+  src:url("../fonts/my-icons.eot");
+  src:url("../fonts/my-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/my-icons.woff") format("woff"),
+    url("../fonts/my-icons.ttf") format("truetype"),
+    url("../fonts/my-icons.svg#my-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.4em;
     background: #FFF;
     color: #444;
+    padding: 2em;
 }
 
 h1 { font-size: 2em; margin: .67em 0 }
@@ -26,4 +35,17 @@ p {
 a {
   color: #00AAEE;
   text-decoration: none;
+}
+
+/*
+  Let's give page-header an icon from
+  our my-icons font
+*/
+.page-header:before {
+  font-size: 2em;
+  content: 'c';
+  font-family: "my-icons";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
 }

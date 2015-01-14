@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+.data-table {
+  display: table;
+  list-style-type: none;
+  padding: 0;
+}
+
+.data-table__headers,
+.data-table__row {
+  display: table-row;
+}
+
+.data-table__header,
+.data-table__col {
+  display: table-cell;
+  padding: 0.5em;
+}
+
+.data-table__header {
+  font-weight: bold;
+}
+
+.data-table__row:nth-child(even) {
+  background: #EEE;
+}
+
+/*
+  Up till now, everything looks like a table,
+  but only this took way more work. However, we
+  can now apply responsive design to the table
+  and make it look quite different on mobile!
+*/
+@media (max-width: 736px) {
+  .data-table__headers,
+  .data-table__header {
+    display: none;
+  }
+
+  .data-table,
+  .data-table__col,
+  .data-table__row {
+    display: block;
+  }
+}
